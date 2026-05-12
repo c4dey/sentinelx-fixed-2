@@ -6,7 +6,7 @@ const API_BASE = (() => {
   if (window.location.port !== '5500' && window.location.port !== '3000') {
     return window.location.origin + '/api';
   }
-  return 'http://localhost:5000/api';
+  return '/api';
 })();
 
 // ── Sample account detection ──────────────────────────────────
